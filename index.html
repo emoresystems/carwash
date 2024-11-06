@@ -15,6 +15,66 @@
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>oursite</title>
+    <style>
+      /* Footer Styles */
+      .footer {
+        background-color: #222;
+        color: #fff;
+        padding: 40px 0;
+        font-family: Arial, sans-serif;
+      }
+      .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .footer-content {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+      .footer-section {
+        max-width: 250px;
+      }
+      .footer-section h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #f1f1f1;
+      }
+      .footer-section p,
+      .footer-section ul li {
+        font-size: 14px;
+        color: #ccc;
+      }
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      .footer-section ul li a {
+        color: #ccc;
+        text-decoration: none;
+      }
+      .footer-section ul li a:hover {
+        color: #fff;
+      }
+      .footer-section .socials a {
+        color: #ccc;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      .footer-section .socials a:hover {
+        color: #fff;
+      }
+      .footer-bottom {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+        color: #bbb;
+        border-top: 1px solid #444;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
     <!-- nav section -->
@@ -126,8 +186,8 @@
     <!-- end header -->
 
     <!-- main section -->
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-around; ">
-      <div class="card" style="width: 18rem; margin: 10px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-around">
+      <div class="card" style="width: 18rem; margin: 10px">
         <img src="./images/download.jpeg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -138,117 +198,7 @@
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
-        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div><div class="card" style="width: 18rem; margin: 10px;">
+      <div class="card" style="width: 18rem; margin: 10px">
         <img src="./images/download.jpeg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -259,7 +209,167 @@
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-      
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="./images/download.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </div>
+    <!-- end of main section -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>
+              We are dedicated to providing top-notch services to our clients,
+              ensuring quality and excellence in every project we handle.
+            </p>
+          </div>
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Your Company | Designed by You
+        </div>
+      </div>
+    </footer>
+    <!--end of footer  -->
   </body>
 </html>
