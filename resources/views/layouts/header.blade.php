@@ -128,7 +128,7 @@
 								<li><a href="/contact">Contact</a></li>
 								<li><a href="/faq">FAQ</a></li>
 								{{-- <li><a href="/emore_team">Team</a></li> --}}
-								<li><a href="/ordering">Admins</a></li>
+								<li><a href="/ordering">Admin</a></li>
 
 							</ul>
 							<!-- End Contact -->
